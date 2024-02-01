@@ -14,6 +14,7 @@ import {
     Card,
 } from "@material-tailwind/react";
 import AnimatedCursor from "react-animated-cursor";
+import Videos from "@/Components/Videos";
 gsap.registerPlugin(ScrollTrigger);
 const Grid = () => {
     //image animation
@@ -186,6 +187,7 @@ const Grid = () => {
     ];
     return (
         <>
+            <Videos />
             <div className="relative mx-auto flex py-5 items-center container ">
                 <span className="flex-shrink mx-4 text-3xl text-dark dark:text-light">
                     Categories
