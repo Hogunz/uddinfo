@@ -8,15 +8,30 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.jsx',
+        './src/**/*.{js,jsx,ts,tsx}',
+        "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+        "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+        'node_modules/flowbite-react/lib/esm/**/*.js',
     ],
+    darkMode: 'class',
 
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                mont: ['Montserrat','sans-serif'],
+                anek: ['Anek Malayalam', 'sans-serif'],
+                syne: [    'Syne', 'sans-serif'],
+                roboto : ['Roboto','sans-serif'],
+            },
+            fontWeight:{
+                '900':900,
+            },
+            colors: {
+                dark: "#121315",
+                light: "#EEF3F3",
             },
         },
     },
 
-    plugins: [forms],
+    plugins: [forms,'flowbite/plugin'],
 };
