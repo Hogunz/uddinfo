@@ -107,7 +107,7 @@ const HeroSection = () => {
                         <a
                             href="#faq"
                             aria-label="Scroll down"
-                            className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+                            className="animate-bounce flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
                         >
                             <svg
                                 className=""

@@ -47,7 +47,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                 <Header />
                 <HeroSection />
                 <Grid />
-                <AccordionCustomAnimation />
+                {/* <AccordionCustomAnimation /> */}
             </Guest>
         </>
     );
