@@ -15,6 +15,7 @@ import {
 } from "@material-tailwind/react";
 import AnimatedCursor from "react-animated-cursor";
 import Videos from "@/Components/Videos";
+import Video from "./Videos1";
 gsap.registerPlugin(ScrollTrigger);
 const Grid = () => {
     //image animation
@@ -241,68 +242,9 @@ const Grid = () => {
                                 {title.name2}
                             </h1>
                         </div>
-                        <Card
-                            className="c2 flex items-center overflow-hidden bg-center bg-no-repeat bg-cover rounded-[28.8px] mb-[221.87px] mt-[110.94px] lg:order-1 "
-                            onClick={handleOpenEnroll}
-                        >
-                            <img
-                                className=" cursor-pointer object-scale-down bg-cover transition duration-300 ease-in-out hover:opacity-75 w-[963.2px] h-full"
-                                src="img/grid/15.jpg"
-                                alt="pic2"
-                                loading="lazy"
-                            />
-                        </Card>
-
-                        <Dialog
-                            size="lg"
-                            open={openEnroll}
-                            handler={handleOpenEnroll}
-                        >
-                            <AnimatedCursor
-                                innerSize={25}
-                                outerSize={40}
-                                color="0, 0, 255"
-                                outerAlpha={0.2}
-                                innerScale={0.7}
-                                outerScale={2}
-                                clickables={[
-                                    "a",
-                                    'input[type="text"]',
-                                    'input[type="email"]',
-                                    'input[type="number"]',
-                                    'input[type="submit"]',
-                                    'input[type="image"]',
-                                    "label[for]",
-                                    "select",
-                                    "textarea",
-                                    "button",
-                                    ".link",
-                                    {
-                                        target: ".custom",
-                                        options: {
-                                            innerSize: 10,
-                                            outerSize: 30,
-                                            color: "255, 255, 255",
-                                            outerAlpha: 0.3,
-                                            innerScale: 0.7,
-                                            outerScale: 2,
-                                        },
-                                    },
-                                ]}
-                            />
-                            <DialogBody className="">
-                                <video
-                                    className="w-full rounded-lg object-cover object-center bg-cover"
-                                    controls
-                                    autoPlay
-                                >
-                                    <source
-                                        src="vid/enrollment.mp4"
-                                        type="video/mp4"
-                                    />
-                                </video>
-                            </DialogBody>
-                        </Dialog>
+                        <div className="c2 flex items-center overflow-hidden bg-center bg-no-repeat bg-cover rounded-[28.8px] mb-[221.87px] mt-[110.94px] lg:order-1 ">
+                            <Video />
+                        </div>
                     </div>
 
                     <div id="queueing" className="flex mx-auto">
@@ -398,7 +340,7 @@ const Grid = () => {
                         >
                             <img
                                 className="cursor-pointer object-scale-down bg-cover transition duration-300 ease-in-out hover:opacity-75 w-[963.2px] h-full"
-                                src="img/grid/17.jpg"
+                                src="/img/library/1.jpg"
                                 alt="pic2"
                                 loading="lazy"
                             />
@@ -479,7 +421,7 @@ const Grid = () => {
                         >
                             <img
                                 className="cursor-pointer object-scale-down bg-cover transition duration-300 ease-in-out hover:opacity-75 w-[963.2px] h-full"
-                                src="img/grid/19.jpg"
+                                src="img/buildings/4.jpg"
                                 alt="pic2"
                                 loading="lazy"
                             />
