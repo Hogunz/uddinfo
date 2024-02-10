@@ -24,6 +24,7 @@
         "flowbite-react": "^0.7.2",
         "gsap": "^3.12.5",
         "react-animated-cursor": "^2.11.2",
-        "react-scroll": "^1.9.0"
+        "react-scroll": "^1.9.0",
+        "swiper": "^11.0.6"
     }
 }
