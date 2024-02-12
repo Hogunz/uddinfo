@@ -5,7 +5,7 @@ import HeroSection from "@/Components/HeroSection";
 import Guest from "@/Layouts/GuestLayout";
 import AnimatedCursor from "react-animated-cursor";
 import "/resources/css/styles.css";
-
+import Videos from "@/Components/Videos";
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     return (
         <>
@@ -46,6 +46,8 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
 
                 <Header />
                 <HeroSection />
+                {/* <Carousel /> */}
+                <Videos />
                 <Grid />
                 {/* <AccordionCustomAnimation /> */}
             </Guest>

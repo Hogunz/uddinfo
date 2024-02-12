@@ -90,7 +90,7 @@ const Topnotchers = () => {
         {
             name: "Engr. Ferren M. Velasco",
             top: "Top 8",
-            percent: "80%",
+            percent: "89.30%",
             date: "October 2018",
             title: "LICENSURE EXAMINATION FOR ELECTRONICS ENGINEERS",
         },

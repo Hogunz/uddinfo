@@ -14,7 +14,6 @@ import {
     Card,
 } from "@material-tailwind/react";
 import AnimatedCursor from "react-animated-cursor";
-import Videos from "@/Components/Videos";
 import Video from "./Videos1";
 gsap.registerPlugin(ScrollTrigger);
 const Grid = () => {
@@ -116,34 +115,6 @@ const Grid = () => {
                 "/img/library/10.jpg",
             ],
         },
-        {
-            imageLink2: [
-                "img/buildings/1.jpg",
-                "img/buildings/2.jpg",
-                "img/buildings/3.jpg",
-                "img/buildings/4.jpg",
-                "img/buildings/5.jpg",
-                "img/buildings/6.jpg",
-                "img/buildings/7.jpg",
-                "img/buildings/8.jpg",
-                "img/buildings/9.jpg",
-                "img/buildings/10.jpg",
-                "img/buildings/11.jpg",
-                "img/buildings/12.jpg",
-                "img/buildings/13.jpg",
-                "img/buildings/14.jpg",
-                "img/buildings/15.jpg",
-                "img/buildings/16.jpg",
-                "img/buildings/17.jpg",
-                "img/buildings/18.jpg",
-                "img/buildings/19.jpg",
-                "img/buildings/20.jpg",
-                "img/buildings/21.jpg",
-                "img/buildings/22.jpg",
-                "img/buildings/23.jpg",
-                "img/buildings/24.jpg",
-            ],
-        },
     ];
     const building = [
         {
@@ -188,7 +159,6 @@ const Grid = () => {
     ];
     return (
         <>
-            <Videos />
             <div className="relative mx-auto flex py-5 items-center container ">
                 <span className="flex-shrink mx-4 text-3xl text-dark dark:text-light">
                     Categories

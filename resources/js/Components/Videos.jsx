@@ -37,7 +37,7 @@ export default function Video() {
                         onPlay={handleVideoStart}
                         onPause={() => setIsPlaying(false)}
                     >
-                        <source src="vid/udd-history.mp4" type="video/mp4" />
+                        <source src="vid/a.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     {!isPlaying && (
